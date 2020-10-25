@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 
+        The page design for the main hub and the game pages are purposefully minimalist. There are not enough games or content pieces to warrant a large gallery or list.
+        Additionally, some of the games are simple to play and understand, and don't require extensive information on how to play.
+        This design theme is why the menu page (main.html) is as simple as three buttons at the center of the screen. 
+
+        All the necessary information about the site is within the menu square:
+        1) The creator of the site
+        2) A readme text file for those wanting to know about how the site was made, or for contact information.
+        3) Links to the games
+
+        Ultimately, the audience could be incredibly varied, and would likely err on the side of being casual game players, considering two out of the three games are (mostly) typical board games.
+        These games do not need to be updated once they are released, as they are "standard" games. There is no reason to include detailed forms or links to discussion pages about them.
+        Players will want to be able to quickly and easily reach the content they want, especially since there is so little of it to have to navigate through.
+
+        For the game pages, they use the traditional box model. The "content" boxes - description, tips and controls, and navigation - are placed above an overlay, which is above the <body> or '#container'. 
+        This is done through changing their z-index, which can be seen through the CSS.
+
+        The color scheme is monochromatic, with varying shades of teal or blue-green. 
+        1) All text is a dark, dull blue. 
+        2) Background colors are usually bright, light teals.
+        3) The overlay and "content" boxes are a very pale teal, similar to the azure color available in the CSS color selection.
+
+        As a note, the main page uses a different set of CSS styling and JS scripts to those of the game pages.
+        -->
+        <meta charset = "utf-8">
+        <meta name = "author" content = "Colin Haroutunian">
+        <meta name = "description" content = "The hub for three games: Tic-Tac-Toe, Checkers, and 'Hooked!' - a 2D side-scroller.">
+        <meta name = "keywords" content = "Tic-Tac-Toe, tictactoe, side-scroller, 2D, 2D game, Checkers, games, video games, board games">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href = "css/main.css" rel = "stylesheet">
+    </head>
+    <body id = "container">
+        <img src = "media/dice.gif" id = "backimg">
+        <div id = "overlay"></div>
+        <div id = "menu">
+            <header>
+                <p>Created by Colin Haroutunian &copy;2020</p>
+                <p>To better understand the site: <a href = "readme.txt">readme.txt</a></p>
+            </header>
+            <nav class = "games" id = "ttt">Tic-Tac-Toe</nav>
+            <nav class = "games" id = "ctf">Checkers CTF</nav>
+            <nav class = "games" id = "scr">Hooked!</nav>
+        </div>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src = "js/main.js"></script>
+    </body>
+</html>
