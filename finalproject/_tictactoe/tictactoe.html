@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Tic-Tac-Toe - CH</title>
+        <meta name = "author" content = "Colin Haroutunian">
+        <meta name = "description" content = "Tic-Tac-Toe is the traditional pen-and-paper game brought to a digital platform.">
+        <meta name = "keywords" content = "Tic-Tac-Toe, tictactoe, board game, video game, game">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href = "../css/alt.css" rel = "stylesheet">
+        <link href = "css/tictactoe.css" rel = "stylesheet">
+    </head>
+    <body id = "container">
+        <img src = "../media/dice.gif" id = "backimg">
+        <div id = "overlay"></div>
+        <section id = "content">
+            <div id = "gamebox">
+                <div id = "boardbox">
+                    <div id = "board">
+                        <!--
+                            sq0 sq1 sq2
+                            sq3 sq4 sq5
+                            sq6 sq7 sq8
+                        -->
+                        <div id = "sq0" class = "square"></div>
+                        <div id = "sq1" class = "square"></div>
+                        <div id = "sq2" class = "square"></div>
+                        <div id = "sq3" class = "square"></div>
+                        <div id = "sq4" class = "square"></div>
+                        <div id = "sq5" class = "square"></div>
+                        <div id = "sq6" class = "square"></div>
+                        <div id = "sq7" class = "square"></div>
+                        <div id = "sq8" class = "square"></div>
+                    </div>
+                </div>
+                <div id = "infobox">
+                    <div id = "team">Current player: </div>
+                </div>
+            </div>
+            <article id = "desc">
+                <h1>Tic-Tac-Toe</h1>
+                <p>&emsp; ... is the traditional pen-and-paper game brought to a digital platform. There are no differences in how it plays here.
+                    It is suggested to be played with another person at your computer or through a stream.
+                </p>
+            </article>
+            <div id = "col-2"></div>
+            <article id = "tips">
+                <h1>Controls & Tips</h1>
+                <p>&emsp; The objective is to have three squares marked in a row - either horizontal, vertical, or diagonal - on the 3x3 board, all by one team.
+                    The first player will always be assigned the blue team, while the second player will be assigned the red team. 
+                    To choose a square, simply press it during your turn.</p>
+            </article>
+            <div id = "column"></div>
+            <div id = "menu">
+                <header>
+                    <p>Created by Colin Haroutunian &copy;2020</p>
+                    <p>To better understand the game: <a href = "readme.txt">readme.txt</a></p>
+                    <p>To better understand the site: <a href = "../readme.txt">readme.txt</a></p>
+                </header>
+                <nav>
+                    <a href = "https://lisabalbach.com/haroutc/CIT190/finalproject/_tictactoe/tictactoe.html" class = "games">Tic-Tac-Toe</a>
+                    <a href = "https://lisabalbach.com/haroutc/CIT190/finalproject/_checkers/checkers.html" class = "games">Checkers CTF</a>
+                    <a href = "https://lisabalbach.com/haroutc/CIT190/finalproject/_hooked/hooked.html" class = "games">Hooked!</a>
+                </nav>
+            </div>
+        </section>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src = "../js/alt.js"></script>
+        <script src = "js/tictactoe.js"></script>
+    </body>
+</html>

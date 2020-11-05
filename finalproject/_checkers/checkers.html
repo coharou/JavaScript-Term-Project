@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Checkers - CH</title>
+        <meta name = "author" content = "Colin Haroutunian">
+        <meta name = "description" content = "Checkers is the old board game version moved online. Players must balance effectively taking their opponents pieces, while not losing their own.">
+        <meta name = "keywords" content = "2D, checkers, checkers, board game, video game, game, online game">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href = "../css/alt.css" rel = "stylesheet">
+        <link href = "css/checkers.css" rel = "stylesheet">
+    </head>
+    <body id = "container">
+        <img src = "../media/dice.gif" id = "backimg">
+        <div id = "overlay"></div>
+        <section id = "content">
+            <div id = "gamebox">
+                <div id = "checkerboard"></div>
+                <div id = "pieces">
+                    <!-- Board pieces will go here. They are added by the JS file. -->
+                </div>
+            </div>
+            <article id = "desc">
+                <h1>Checkers</h1>
+                <p>&emsp; ... like Tic-Tac-Toe, it is the old board game version moved online. 
+                    Players must balance effectively taking their opponents pieces, while not losing their own.
+                </p>
+            </article>
+            <div id = "col-2"></div>
+            <article id = "tips">
+                <h1>Controls & Tips</h1>
+                <p>&emsp; Start by assigning players their teams: blue or red. Set up the pieces on the dark grey squares.
+                    Blue team will go first. Pieces may only move diagonally. To capture an opponent, move over it to an open diagonal tile beyond it.</p>
+            </article>
+            <div id = "menu">
+                <header>
+                    <p>Created by Colin Haroutunian &copy;2020</p>
+                    <p>To better understand the game: <a href = "readme.txt">readme.txt</a></p>
+                    <p>To better understand the site: <a href = "../readme.txt">readme.txt</a></p>
+                </header>
+                <nav>
+                    <a href = "https://lisabalbach.com/haroutc/CIT190/finalproject/_tictactoe/tictactoe.html" class = "games">Tic-Tac-Toe</a>
+                    <a href = "https://lisabalbach.com/haroutc/CIT190/finalproject/_checkers/checkers.html" class = "games">Checkers CTF</a>
+                    <a href = "https://lisabalbach.com/haroutc/CIT190/finalproject/_hooked/hooked.html" class = "games">Hooked!</a>
+                </nav>
+            </div>
+        </section>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src = "../js/alt.js"></script>
+        <script src = "js/checkers.js"></script>
+    </body>
+</html>

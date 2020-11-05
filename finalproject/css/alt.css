@@ -10,30 +10,28 @@
 //  "CONTENT" BOX
 */
 #content { z-index: 2; left: 0%;  top: 0%; position: absolute;  width: 96%; margin-left: 2%; margin-top: 1%; }
-#gamebox, #desc, #tips { margin-bottom: 1%; }
 #gamebox, #desc, #menu, #tips { box-shadow: 0px 0px 9px 1px #3B4D52; }
-#gamebox { height: 600px; background-color: #C0E1EB; }
+#gamebox { height: 600px; background-color: #C0E1EB; margin-bottom: 1%;  }
 
 /*
 //  DESCRIPTION & HELP
 */
-#desc, #tips { width: 49%; height: auto; background-color: #E0EEE9; float: left; }
+#desc, #tips { width: 49%; height: auto; background-color: #E0EEE9; float: left; margin-bottom: 1%;}
 h1 { font-size: 2rem; text-align: center; }
 p { font-size: 1.2rem; }
-h1, p { margin-left: 10px; margin-right: 10px; margin-top: 6px; margin-bottom: 6px; }
+h1, p { margin-left: 0.66%; margin-right: 0.66%; margin-top: 6px; margin-bottom: 6px; }
 
 /*
 //  COLUMNS
 */
-#column { width: 33%; float: left; height: 90px; }
 #col-2 { width: 2%; float: left; height: 150px; }
 
 /*
 //  MENU
 */
-#menu { height: 85px; width: 33%; background-color: #E0EEE9; float: left; }
-header { font-size: 0.7rem; text-align: center; margin-top: 7px; margin-bottom: 10px; }
-nav { text-align: center; margin-top: 1.5px;}
+#menu { width: 100%; background-color: #E0EEE9; float: left; padding: 1%; box-sizing: border-box;}
+header { font-size: 0.7rem; text-align: center; margin-bottom: 10px;}
+nav { text-align: center; margin-top: 1.5px; margin-bottom: 1.5px;}
 .games { font-size: 1.2rem; padding: 0.25%;}
 .games:hover { color: #4e747c; text-shadow: 0px 0px 1.5px #dce9e4;} 
 header p { font-size: 0.7rem; }

@@ -1,0 +1,19 @@
+/*
+//  BOARD & INFO SECTIONS
+*/
+#boardbox, #infobox { height: inherit; float: left; }
+#boardbox {  width: 67%; }
+#infobox { width: 33%; }
+
+/*
+//  BOARD BOX
+*/
+#board { margin-left: 0.66%; margin-top: 0.25%; margin-right: 20%; height: inherit; }
+.square, .square-blue, .square-red { width: 33%; float: left; height: 33%; background-color:#e0eee9; border: 0.66rem ridge #3B4D52; box-sizing: border-box; }
+.square-red { background-color: rgb(173, 110, 110); }
+.square-blue { background-color: rgb(125, 162, 204); }
+
+/*
+//  INFO BOX
+*/
+#team { width: 100%; margin-right: 10%; }

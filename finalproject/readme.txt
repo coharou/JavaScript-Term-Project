@@ -3,9 +3,8 @@
 ///------------------------------
 1)  Tic-Tac-Toe is the traditional pen-and-paper game brought to a digital platform. There are no differences in how it plays here.
     It is suggested to be played with another person at your computer or through a stream.
-    To liven the experience, there are multiple board styles and designs are available for the user to choose from.
-2)  Checkers CTF is similar to the board game version, with a major twist: the board is triangular, with one corner having a flag, and the other two holding the players.
-    Players must balance effectively dodging their opponents like in the original game, while also trying to pull the flag back to their corner.
+2)  Checkers, like Tic-Tac-Toe, is the old board game version moved online. 
+    Players must balance effectively taking their opponents pieces, while not losing their own.
 3)  "Hooked!" is a 2D side-scroller where the player is equipped with a grappling hook, and tasked with flinging themselves over dangerous obstacles to reach the finish.
     There's one, extensive level without any checkpoints included. Being hit once is an instant death, causing a restart all the way back at the beginning.
 
@@ -14,6 +13,29 @@
 ///     FILE DIRECTORY
 ///------------------------------
 finalproject
+    -> _checkers
+        -> css
+            -> checkers.css
+        -> js
+            -> checkers.js
+        -> media
+            -> red.png
+            -> blue.png
+            -> board.png
+        -> checkers.html
+        -> readme.txt
+    -> _hooked
+        -> css
+        -> js
+        -> media
+        -> hooked.html
+    -> _tictactoe
+        -> css
+            -> tictactoe.css
+        -> js
+            -> tictactoe.js
+        -> tictactoe.html
+        -> readme.txt
     -> css
         -> alt.css
         -> main.css
@@ -21,15 +43,9 @@ finalproject
         -> alt.js
         -> main.js
     -> media
-        -> bg1.png
-        -> bg2.png
-        -> bg3.png
-        -> bg4.png
-    checkers.html
-    hooked.html
-    main.html
-    tictactoe.html
-    readme.txt
+        -> dice.gif
+    -> main.html
+    -> readme.txt
 
 ///------------------------------
 ///     CONTACT INFORMATION

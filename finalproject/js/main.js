@@ -5,9 +5,9 @@ function Main(){
     $(document).ready(function(){AlterVisibility(); AlterBackgroundIMG(); PageSizing();}); 
 
     // On clicking the menu's navigation buttons, the user's tab will be switched to the respective game.
-    $('#ttt').on('click', function(){location.assign("tictactoe.html");});
-    $('#ctf').on('click', function(){location.assign("checkers.html");});
-    $('#scr').on('click', function(){location.assign("hooked.html");});
+    $('#ttt').on('click', function(){location.assign("_tictactoe/tictactoe.html");});
+    $('#ctf').on('click', function(){location.assign("_checkers/checkers.html");});
+    $('#scr').on('click', function(){location.assign("_hooked/hooked.html");});
 
     function PageSizing(){
         var windowSize = GetViewport();
