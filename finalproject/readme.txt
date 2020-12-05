@@ -25,10 +25,13 @@ finalproject
         -> checkers.html
         -> readme.txt
     -> _hooked
+    -> _hooked
         -> css
+            -> hooked.css
         -> js
-        -> media
+            -> hooked.js
         -> hooked.html
+        -> readme.txt
     -> _tictactoe
         -> css
             -> tictactoe.css
@@ -40,7 +43,6 @@ finalproject
         -> alt.css
         -> main.css
     -> js
-        -> alt.js
         -> main.js
     -> media
         -> dice.gif

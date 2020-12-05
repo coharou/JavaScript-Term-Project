@@ -3,7 +3,17 @@
     border: 20px ridge #9ca2a5; 
     box-sizing: border-box;
 }
-#pieces { margin-left: 30px; margin-top: 30px; box-sizing: border-box; } /* This is the container for the pieces, not the actual pieces themselves. */
-#checkerboard { height: 600px; width: 600px; }
-#pieces { height: 570px; width: 600px; }
-#checkerboard, #pieces, .item { float: left; }
+#pieceholder { 
+    margin-left: 0.75%; 
+    margin-top: 0.75%; 
+    box-sizing: border-box; 
+    height: 200px; 
+    width: 600px; 
+}
+#checkerboard { 
+    height: 600px; 
+    width: 600px; 
+}
+.item { 
+    float: left; 
+}

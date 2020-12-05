@@ -30,10 +30,6 @@ finalproject
         -> readme.txt
     -> css
         -> alt.css
-    -> js
-        -> alt.js
-    -> media
-        -> dice.gif
 
 ///------------------------------
 ///     CONTACT INFORMATION

@@ -17,7 +17,7 @@ $(function() {
         pieceID = `${baseID}${i}`;
 
         // Creates a new element via the pieceID. If this were the second piece created, pieceID = 'red2' and the image file would be red.png.
-        $('#pieces').prepend(`<div id = "${pieceID}" class = "item"><img src = 'media/${baseID}.png'></div>`);
+        $('#pieceholder').prepend(`<div id = "${pieceID}" class = "item"><img src = 'media/${baseID}.png'></div>`);
 
         // Sets the new element to be draggable.
         $(`#${pieceID}`).draggable();
