@@ -1,37 +1,69 @@
-/*
-//  MISC. STYLING
-*/
-* { font-family: 'Share Tech Mono', monospace; margin: 0; color: #0C1112; }
-#container { background-color: white; position: relative; left: 0%;  top: 0%; z-index: 0; }
-#overlay { background-color: #e0eee9; z-index: 1; left: 0%;  top: 0%; width: inherit; height: inherit; }
-#backimg { position: absolute; z-index: 1; left: 0%; top: 0%; opacity: 50%;}
-
-/*
-//  "CONTENT" BOX
-*/
-#content { z-index: 2; left: 0%;  top: 0%; position: absolute;  width: 96%; margin-left: 2%; margin-top: 1%; }
-#gamebox, #desc, #menu, #tips { box-shadow: 0px 0px 9px 1px #3B4D52; }
-#gamebox { height: 600px; background-color: #C0E1EB; margin-bottom: 1%;  }
-
-/*
-//  DESCRIPTION & HELP
-*/
-#desc, #tips { width: 49%; height: auto; background-color: #E0EEE9; float: left; margin-bottom: 1%;}
-h1 { font-size: 2rem; text-align: center; }
-p { font-size: 1.2rem; }
-h1, p { margin-left: 0.66%; margin-right: 0.66%; margin-top: 6px; margin-bottom: 6px; }
-
-/*
-//  COLUMNS
-*/
-#col-2 { width: 2%; float: left; height: 150px; }
-
-/*
-//  MENU
-*/
-#menu { width: 100%; background-color: #E0EEE9; float: left; padding: 1%; box-sizing: border-box;}
-header { font-size: 0.7rem; text-align: center; margin-bottom: 10px;}
-nav { text-align: center; margin-top: 1.5px; margin-bottom: 1.5px;}
-.games { font-size: 1.2rem; padding: 0.25%;}
-.games:hover { color: #4e747c; text-shadow: 0px 0px 1.5px #dce9e4;} 
-header p { font-size: 0.7rem; }
+* { 
+    font-family: 'Share Tech Mono', monospace; 
+    color: #0C1112; 
+}
+#gamebox, #desc, #menu, #tips, #gameinfo { 
+    box-shadow: 0px 0px 9px 1px #3B4D52; 
+    background-color: #d2e9f0;
+}
+body { 
+    margin: 0; 
+    background-color: #E0EEE9;
+}
+section {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+#content, #sidecol { 
+    float: left; 
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#content { 
+    width: 58%; 
+    padding: 1%;
+    padding-bottom: 0%;
+}
+#sidecol { 
+    width: 18%; 
+    margin-bottom: 1%;
+}
+h1, h2 {
+    text-align: center;
+    margin: 1%;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.2rem;
+    padding: 0.75%;
+    margin: 0;
+}
+#menu {
+    padding: 1%;
+}
+#menu p, #menu {
+    text-align: center;
+    font-size: 0.8rem;
+}
+nav {
+    margin-bottom: 1.5px;
+}
+footer {
+    margin-bottom: 10px;
+}
+footer p {
+    padding: 0.25%;
+}
+.games {
+    padding: 1%;
+    font-size: 1.15rem;
+}
+.games:hover { 
+    color: #4e747c; 
+    text-shadow: 0px 0px 1.5px #dce9e4;
+} 
